@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--该xml文件是mybatis核心配置文件：
+     连接池 连接数据库的配置 映射文件 别名 properties配置文件...-->
+<configuration>
+    <settings>
+        <!--日志配置:log4j，需导入依赖和配置文件-->
+        <!--<settings>
+            <setting name="logImpl" value="LOG4J"/>
+        </settings>-->
+        <!--mybatis自带的日志功能，可以在控制台输出日志信息：sql语句和参数 -->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--核心配置文件的全局的设置-->
+        <!--开启全局的延迟加载-->
+        <!--<setting name="lazyLoadingEnabled" value="true"/>-->
+    </settings>
+
+    <!--配置别名-->
+    <typeAliases>
+        <!-- 每一个类型的别名  type属性表示别名对应的类型地址 alias表示起的别名-->
+        <!--   <typeAlias type="java.util.List" alias="List"/>-->
+        <!--扫描包，识别实体名称-->
+        <package name="com.pojo"></package>
+    </typeAliases>
+
+    <!--配置pagetHelper拦截器-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <!--配置方言-->
+            <property name="dialect" value="mysql"></property>
+            <!-- 3.3.0版本可用 - 分页参数合理化，默认false禁用 -->
+            <!-- 启用合理化时，如果pageNum<1会查询第一页，如果pageNum>pages会查询最后一页 -->
+            <!-- 禁用合理化时，如果pageNum<1或pageNum>pages会返回空数据 -->
+            <property name="reasonable" value="true"/>
+        </plugin>
+    </plugins>
+
+</configuration>
