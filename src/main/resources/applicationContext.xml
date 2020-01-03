@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--
+        开启注解，指定扫描的包 : context:component-scan
+        引入context名称空间-引入约束
+        base-package:指定要扫描的包, 扫描的是包及其子包
+    -->
+    <context:component-scan base-package="com.*"></context:component-scan>
+    <!--开启springAOP的注解-->
+    <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+    <!--让spring管理db.properties文件-->
+    <!--
+    classpath:表示文件的路径，表示文件在根路径时使用
+    classpath* ： 表示文件的路径有子路径。
+    -->
+    <bean id="propertyPlaceholderConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:db.properties"></property>
+    </bean>
+
+    <!--使用spring配置数据源，dbcp  /  c3p0-->
+    <!--2选1-->
+    <!--c3p0的配置-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${driver}"></property>
+        <property name="jdbcUrl" value="${url}"></property>
+        <property name="user" value="${username}"></property>
+        <property name="password" value="${password}"></property>
+    </bean>
+    <!--dbcp连接池的配置-->
+    <!-- <bean id="basicDataSource" class="org.apache.commons.dbcp.BasicDataSource">
+         <property name="driverClassName" value="${driver}"></property>
+         <property name="url" value="${url}"></property>
+         <property name="username" value="${username}"></property>
+         <property name="password" value="${password}"></property>
+     </bean>-->
+    <!--
+       再也不写这个玩意了：
+       1.先加载Mybatis的配置文件
+       2.创建工厂类：sqlsessionFactory
+       3.通过工厂类创建sqlsession,操作数据
+    -->
+    <!--现在把mybatis的创建交由spring管理 ： sqlsessionFactoryBean-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--
+            1.需要配置数据源
+            2.把映射文件(xml)的加载也交由spring管理
+            3.引入mybatis的主配置文件 = sqlMapConfig.xml
+        -->
+        <!--
+            1.如果路径是文件(xml,propeties) 必须要写成 xxx/xxx/xx/xx/
+            2.如果路径是java文件，必须要写 xxx.xxx.xxx
+        -->
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="mapperLocations" value="classpath*:com/mapper/*.xml"></property>
+        <property name="configLocation" value="classpath:sqlMapConfig.xml"></property>
+    </bean>
+
+    <!--
+        BooksMapper.java
+        BooksMapper.xml
+    -->
+    <!--加载mapper的接口文件-->
+    <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.mapper"></property>
+    </bean>
+
+    <!--xml配置版-->
+    <!--把切面交给spring管理-->
+    <!--  <bean id="" class="com.pojo."></bean>
+      <bean id="" class="com.pojo."></bean>
+      <bean id="" class="com.pojo."></bean>
+      &lt;!&ndash;把核心类交给spring管理&ndash;&gt;
+      <bean id="" class="com.pojo."></bean>
+      &lt;!&ndash;aop配置
+      proxy-target-class="true"：使用spring来代理
+      &ndash;&gt;
+      <aop:config proxy-target-class="true">-->
+    <!--切入点: 多个核心方法-->
+    <!--
+    expression:表达式
+    execution: 进行切入点操作
+    第一个* : 表示方法的返回值
+    AOP常见概念：
+    3、切面(组件，模块)：非核心类都是切面
+    由切入点和通知组成，既包含了横切逻辑的定义。也包含了连接点的定义。
+    4、通知：切面中的方法
+    a) 前置通知：在核心方法之前执行的通知
+    第二个* ：表示核心类
+    第二个* : 表示核心方法
+    (..) ： 表示核心方法的所有参数
+    -->
+    <!--先配置切入点-->
+    <!-- <aop:pointcut id="pcut" expression="execution(* com.dao.impl..*.*(..))"></aop:pointcut>
+     &lt;!&ndash;配置前置通知，在前置通知中order值越小，执行的顺序越靠前&ndash;&gt;
+     &lt;!&ndash;配置切面类&ndash;&gt;
+     <aop:aspect ref = "login" order="1">
+         &lt;!&ndash;在切面类中配置环绕通知，环绕通知决定了这个通知能不能执行&ndash;&gt;
+         <aop:around method="loginExists" pointcut-ref="pcut"></aop:around>
+     </aop:aspect>
+     <aop:aspect ref="secutity" order="2">
+         <aop:before method="isSecurity" pointcut-ref="pcut"></aop:before>
+     </aop:aspect>
+     &lt;!&ndash;配置后置通知，在后置通知中order值越大，执行的顺序越靠前&ndash;&gt;
+     &lt;!&ndash;记录日志&ndash;&gt;
+     <aop:aspect ref="logger" order="3">
+         <aop:after method="log" pointcut-ref="pcut"></aop:after>
+     </aop:aspect>
+     &lt;!&ndash;清理缓存的通知&ndash;&gt;
+     <aop:aspect ref ="clean" order="2">
+         <aop:after method="clearCache" pointcut-ref="pcut"></aop:after>
+     </aop:aspect>
+     &lt;!&ndash;配置返回通知,返回一个切点参数&ndash;&gt;
+     <aop:aspect ref="logger" order="1">
+         <aop:after-returning method="logMoney" pointcut-ref="pcut" returning="money"></aop:after-returning>
+     </aop:aspect>
+     &lt;!&ndash;配置一个异常通知,当出现异常的时候才会执行这个通知&ndash;&gt;
+     <aop:aspect ref="exceptionHaner">
+         <aop:after-throwing method="handleException" pointcut-ref="pcut" throwing="ex"></aop:after-throwing>
+     </aop:aspect>
+ </aop:config>-->
+    <!---->
+
+    <!--配置事务管理器-->
+    <bean id="tx" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--注解版-->
+    <tx:annotation-driven proxy-target-class="true" transaction-manager="tx"></tx:annotation-driven>
+
+    <!--xml版配置实现spring的声明式事务管理-->
+    <!-- <tx:advice transaction-manager="tx" id="advice">
+         <tx:attributes>
+             &lt;!&ndash;对哪些方法进行事务管理：配置事务的传播行为&ndash;&gt;
+             &lt;!&ndash;增  删  改  /  查 &ndash;&gt;
+             &lt;!&ndash;add*:  凡是以add开头的方法，都进行事务管理&ndash;&gt;
+             &lt;!&ndash;针对业务层的配置&ndash;&gt;
+             <tx:method name="add*" propagation="REQUIRED"/>
+             <tx:method name="insert*" propagation="REQUIRED"/>
+             <tx:method name="update*" propagation="REQUIRED"/>
+             <tx:method name="modify*" propagation="REQUIRED"/>
+             <tx:method name="delete*" propagation="REQUIRED"/>
+             <tx:method name="del*" propagation="REQUIRED"/>
+             <tx:method name="remove*" propagation="REQUIRED"/>
+             <tx:method name="get*" propagation="SUPPORTS"/>
+             <tx:method name="select*" propagation="SUPPORTS"/>
+             <tx:method name="find*" propagation="SUPPORTS"/>
+             <tx:method name="*" propagation="SUPPORTS"/>
+         </tx:attributes>
+     </tx:advice>
+     &lt;!&ndash;指定业务层：切面=>切入点&ndash;&gt;
+     <aop:config proxy-target-class="true">
+         &lt;!&ndash;事务管理切面配置&ndash;&gt;
+         <aop:advisor advice-ref="advice" pointcut="execution(* cn.kgc.service.impl..*.*(..))"></aop:advisor>
+     </aop:config>-->
+
+    <!--开启springmvc的注解驱动-->
+    <!-- <mvc:annotation-driven></mvc:annotation-driven>-->
+
+    <!-- 容器默认的DefaultServletHandler处理所有静态内容与无RequestMapping处理的URL-->
+    <!--只拦截请求，不拦截静态资源和RequestMapping的url-->
+    <!--  <mvc:default-servlet-handler/>-->
+    <!--
+    ParameterizableViewController:是springmvc提供的一个控制器
+    使用该控制器可以指定Url地址能访问到什么视图。
+    name="/show01": 配置的是Url中部分路径
+    -->
+    <!-- /show01/WEB-INF/jsp/show01.jsp  -->
+    <!--<bean name="/show01" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+        <property name="viewName" value="/WEB-INF/jsp/show01.jsp"></property>
+    </bean>-->
+    <!--
+   ParameterizableViewController:是springmvc提供的一个控制器
+   使用该控制器可以指定Url地址能访问到什么视图。
+   name="/show01": 配置的是Url中部分路径
+   -->
+    <!-- /show01/WEB-INF/jsp/show01.jsp  -->
+    <!--<bean name="/show01" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+        <property name="viewName" value="/WEB-INF/jsp/show01.jsp"></property>
+    </bean>-->
+
+    <!--配置视图解析器-->
+    <!--视图解析器会自动拼接路径-->
+    <!--<bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        &lt;!&ndash;配置前缀&ndash;&gt;
+        <property name="prefix" value="/WEB-INF/jsp/pages/"></property>
+        &lt;!&ndash;配置后缀&ndash;&gt;
+        <property name="suffix" value=".jsp"></property>
+    </bean>-->
+</beans>
+
+
+

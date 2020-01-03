@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="house_project:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27814156-675f-47b4-9333-c8ea99e3645d" name="Default Changelist" comment="house第一次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/house_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/condition/UsersCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/DistrictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/HouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/StreetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/TypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/DistrictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/DistrictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/HouseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/HouseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/StreetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/StreetMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/TypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/TypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UsersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/District.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/DistrictExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/HouseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Street.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/StreetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/TypeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/UsersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/DistrictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/HouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/StreetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/DistrictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/HouseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/StreetServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userscontroller/DistrictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userscontroller/HouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userscontroller/StreetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userscontroller/TypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/userscontroller/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/MD5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springMvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/district.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/district.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/black/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/bootstrap/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/gray/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/mini_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/mini_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/mini_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/sum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/easyUI/themes/metro/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/CategorizeMenu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/ShowCustomPropertiesPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/TableDrawTable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/blocks.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/directory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/layout-browser-hd-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/nav_link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/noscript.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/plugin_big.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/tabicons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/images/tools-sprites-trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/MyEasyUICRUD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/outlook2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/street.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/studentData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/stuman.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/type.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/unverified.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/verified.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/verify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/thumb_house.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/wx_icp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/details.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/err.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/fabu.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/fabu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/fabu2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/guanli.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/guanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/list.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/login.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/regs.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/regs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/page/timeout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/dojoRequire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/struts_dojo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/validation(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/condition/UsersCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/controller/DistrictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/controller/HouseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/controller/StreetController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/controller/TypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/controller/UsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/mapper/DistrictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/mapper/DistrictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/mapper/HouseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/mapper/HouseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/mapper/StreetMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/mapper/StreetMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/mapper/TypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/mapper/TypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/mapper/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/District.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/DistrictExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/DistrictExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/DistrictExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/DistrictExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/House.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/HouseExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/HouseExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/HouseExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/HouseExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/Street.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/StreetExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/StreetExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/StreetExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/StreetExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/TypeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/TypeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/TypeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/TypeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/UsersExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/UsersExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/UsersExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/pojo/UsersExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/service/DistrictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/service/HouseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/service/StreetService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/service/TypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/service/UsersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/service/impl/DistrictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/service/impl/HouseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/service/impl/StreetServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/service/impl/TypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/userscontroller/DistrictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/userscontroller/HouseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/userscontroller/StreetController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/userscontroller/TypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/userscontroller/UsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/utils/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/com/utils/PageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/springMvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/classes/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/HikariCP-2.7.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jackson-core-2.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jackson-databind-2.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/log4j-api-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/logback-access-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mapper-base-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mapper-core-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mapper-spring-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mapper-spring-boot-autoconfigure-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mapper-spring-boot-starter-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mapper-weekend-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mybatis-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/pagehelper-4.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/persistence-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/snakeyaml-1.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-aop-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-aspects-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-beans-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-2.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-autoconfigure-2.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-starter-2.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-starter-jdbc-2.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-boot-starter-logging-2.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-context-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-core-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-expression-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-jcl-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-jdbc-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-test-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-tx-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-web-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/spring-webmvc-5.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/district.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/district.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/black/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/bootstrap/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/default/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/gray/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/cut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/edit_remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/filesave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/mini_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/mini_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/mini_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/reload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/sum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/icons/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/combo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/combobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/datagrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/datebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/accordion_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/calendar_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/combo_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/datagrid_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/linkbutton_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/menu_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/messager_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/pagination_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/panel_tools.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/spinner_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/tabs_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/tree_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/validatebox_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/linkbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/menubutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/messager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/propertygrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/searchbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/splitbutton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/validatebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/easyUI/themes/metro/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/CategorizeMenu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/ShowCustomPropertiesPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/TableDrawTable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/blocks.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/directory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/layout-browser-hd-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/nav_link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/noscript.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/plugin_big.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/tabicons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/images/tools-sprites-trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/js/MyEasyUICRUD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/js/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/js/outlook2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/street.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/studentData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/stuman.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/type.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/unverified.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/verified.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/admin/verify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/images/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/images/ss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/images/thumb_house.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/images/wx_icp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/details.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/err.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/fabu.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/fabu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/fabu2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/guanli.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/guanli.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/list.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/login.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/regs.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/regs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/page/timeout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/scripts/dojoRequire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/scripts/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/scripts/struts_dojo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/scripts/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/scripts/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/scripts/validation(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ROOT/scripts/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/condition/UsersCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/DistrictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/HouseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/StreetController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/TypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/controller/UsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/DistrictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/DistrictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/HouseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/HouseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/StreetMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/StreetMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/TypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/TypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/District.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/DistrictExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/DistrictExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/DistrictExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/DistrictExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/House.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/HouseExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/HouseExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/HouseExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/HouseExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/Street.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/StreetExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/StreetExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/StreetExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/StreetExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/TypeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/TypeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/TypeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/TypeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/UsersExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/UsersExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/UsersExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/pojo/UsersExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/DistrictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/HouseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/StreetService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/TypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/UsersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/DistrictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/HouseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/StreetServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/TypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/userscontroller/DistrictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/userscontroller/HouseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/userscontroller/StreetController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/userscontroller/TypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/userscontroller/UsersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/utils/PageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springMvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/admin/unverified.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\javaproject\house_project\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="G:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VFdNswreyBbZBbZX5I61HvQEnH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/page" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\javaproject\house_project\src\main\webapp\page" />
+      <recent name="G:\javaproject\house_project\src\main\webapp\admin" />
+      <recent name="G:\javaproject\house_project\src\main\webapp" />
+      <recent name="G:\javaproject\house_project\src\main\java\com\utils" />
+      <recent name="G:\javaproject\house_project\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.userscontroller" />
+      <recent name="com.controller" />
+      <recent name="com.service.impl" />
+      <recent name="com.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\javaproject\house_project\src\main\webapp\admin" />
+      <recent name="G:\javaproject\house_project\src\main\webapp\page" />
+      <recent name="G:\javaproject\house_project\src\main\webapp" />
+      <recent name="G:\javaproject\house_project\src\main\webapp\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat9.0-8082">
+    <configuration name="All in house_project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="house_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5-8080" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5-8080" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=utf8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_house_project_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58929" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5-8081" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5-8081" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="Dfile.encoding=utf8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_house_project_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59007" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat9.0-8082" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="tomcat9.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=utf8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="house_project:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_house_project" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57727" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="house_project:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in house_project" />
+      <item itemvalue="Tomcat Server.tomcat9.0-8082" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5-8080" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5-8081" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in house_project" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.12174525" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27814156-675f-47b4-9333-c8ea99e3645d" name="Default Changelist" comment="" />
+      <created>1576852739498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576852739498</updated>
+      <workItem from="1576852743202" duration="2982000" />
+      <workItem from="1576856073837" duration="615000" />
+      <workItem from="1576856769896" duration="28000" />
+      <workItem from="1576856884805" duration="1577000" />
+      <workItem from="1576858479858" duration="552000" />
+      <workItem from="1576859051534" duration="42000" />
+      <workItem from="1576896230582" duration="8269000" />
+      <workItem from="1576913933539" duration="2269000" />
+      <workItem from="1576998086017" duration="15532000" />
+      <workItem from="1577059803085" duration="18316000" />
+      <workItem from="1577105132417" duration="146000" />
+      <workItem from="1577165152799" duration="21848000" />
+      <workItem from="1577188636619" duration="599000" />
+      <workItem from="1577245233988" duration="748000" />
+      <workItem from="1577271027347" duration="244000" />
+      <workItem from="1577329969630" duration="31346000" />
+      <workItem from="1577424688632" duration="16305000" />
+      <workItem from="1577585469852" duration="15333000" />
+      <workItem from="1577664549560" duration="16207000" />
+      <workItem from="1577697276528" duration="13765000" />
+      <workItem from="1577717615761" duration="832000" />
+      <workItem from="1577774965317" duration="28849000" />
+      <workItem from="1577847757805" duration="17339000" />
+      <workItem from="1577885769805" duration="1449000" />
+      <workItem from="1577934498691" duration="25989000" />
+      <workItem from="1577969618879" duration="5498000" />
+      <workItem from="1578013641078" duration="4004000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="house第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="house第一次提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="150" key="#Inspections" timestamp="1576900827442">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="586" y="150" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1576900827442" />
+    <state x="619" y="134" key="#Tomcat_Server" timestamp="1577245293408">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="619" y="134" key="#Tomcat_Server/0.0.1920.1050@0.0.1920.1050" timestamp="1577245293408" />
+    <state x="481" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577701456833">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="481" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577701456833" />
+    <state x="799" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1577952521028">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="799" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1577952521028" />
+    <state x="619" y="134" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1576856464283">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="619" y="134" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1050@0.0.1920.1050" timestamp="1576856464283" />
+    <state x="737" y="457" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1576852855327">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="737" y="457" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1050@0.0.1920.1050" timestamp="1576852855327" />
+    <state x="734" y="457" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1576852884735">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="734" y="457" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576852884735" />
+    <state x="596" y="152" key="CommitChangelistDialog2" timestamp="1578027772336">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="596" y="152" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772336" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1577949122971">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577949122971" />
+    <state x="686" y="234" key="FileChooserDialogImpl" timestamp="1578026047117">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="686" y="234" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578026047117" />
+    <state width="1223" height="190" key="GridCell.Tab.0.bottom" timestamp="1578027772389">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772389" />
+    <state width="1223" height="190" key="GridCell.Tab.0.center" timestamp="1578027772389">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772389" />
+    <state width="1223" height="190" key="GridCell.Tab.0.left" timestamp="1578027772389">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772389" />
+    <state width="1223" height="190" key="GridCell.Tab.0.right" timestamp="1578027772389">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772389" />
+    <state width="1223" height="190" key="GridCell.Tab.1.bottom" timestamp="1578027772390">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772390" />
+    <state width="1223" height="190" key="GridCell.Tab.1.center" timestamp="1578027772389">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772389" />
+    <state width="1223" height="190" key="GridCell.Tab.1.left" timestamp="1578027772389">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772389" />
+    <state width="1223" height="190" key="GridCell.Tab.1.right" timestamp="1578027772390">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772390" />
+    <state width="1223" height="190" key="GridCell.Tab.2.bottom" timestamp="1578027772390">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772390" />
+    <state width="1223" height="190" key="GridCell.Tab.2.center" timestamp="1578027772390">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772390" />
+    <state width="1223" height="190" key="GridCell.Tab.2.left" timestamp="1578027772390">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772390" />
+    <state width="1223" height="190" key="GridCell.Tab.2.right" timestamp="1578027772390">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1223" height="190" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578027772390" />
+    <state width="1626" height="126" key="GridCell.Tab.3.bottom" timestamp="1577949370710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1626" height="126" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577949370710" />
+    <state width="1626" height="126" key="GridCell.Tab.3.center" timestamp="1577949370710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1626" height="126" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577949370710" />
+    <state width="1626" height="126" key="GridCell.Tab.3.left" timestamp="1577949370710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1626" height="126" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577949370710" />
+    <state width="1626" height="126" key="GridCell.Tab.3.right" timestamp="1577949370710">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1626" height="126" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577949370710" />
+    <state x="732" y="267" key="RollbackChangesDialog" timestamp="1578026002218">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="732" y="267" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578026002218" />
+    <state x="415" y="123" key="SettingsEditor" timestamp="1578027178063">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="415" y="123" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578027178063" />
+    <state x="559" y="228" key="Vcs.Push.Dialog.v2" timestamp="1578027814917">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="559" y="228" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578027814917" />
+    <state x="667" y="278" width="623" height="508" key="find.popup" timestamp="1577173891226">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="278" width="623" height="508" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577173891226" />
+    <state x="395" y="178" key="new project wizard" timestamp="1577105277066">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="395" y="178" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1577105277066" />
+    <state x="721" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1577949320759">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="721" y="168" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577949320759" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1577849050396">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577849050396" />
+    <state x="674" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1577803722385">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="674" y="257" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577803722385" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/house_project$All_in_house_project.ic" NAME="All in house_project Coverage Results" MODIFIED="1577087672490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
