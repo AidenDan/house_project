@@ -120,7 +120,10 @@ public class UserServiceImpl implements UsersService {
         String pwd = MD5Utils.md5Encrypt(password);
         criteria.andPasswordEqualTo(pwd);
         List<Users> usersList = UsersMapper.selectByExample(usersExample);
+        if  (usersList !=null && usersList.size()>0)
         return usersList.get(0);
+        else
+            return null;
     }
 
     //根据房屋id审核是否通过发布
