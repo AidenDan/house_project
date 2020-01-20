@@ -67,6 +67,17 @@ public interface HouseService {
        */
       Integer downHouseService(String houseId);
 
+    /**
+     *
+     *
+     * @description: 显示房屋详细信息
+     * @param null
+     * @return:
+     * @author: Aiden
+     * @time: 2019-12-31 16:06:45
+     */
+    House detailsHouseService(String houseId);
+
 
     /**
      *

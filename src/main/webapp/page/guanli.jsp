@@ -6,7 +6,7 @@
 <TITLE>汉房租房 - 用户管理</TITLE>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
 rel=stylesheet type=text/css href="../css/style.css">
-  <script src="../js/jquery-1.8.3.js"></script>
+  <script src="../admin/js/jquery-1.8.3.js"></script>
 <META name=GENERATOR ></HEAD>
 <BODY>
 <DIV id=header class=wrap>

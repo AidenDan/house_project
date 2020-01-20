@@ -164,7 +164,7 @@
                 { field: 'opt', title: '审核', width: 50, align: "center",
                     formatter: function(value,row,index){
                         //同步跳转 "<a href='delUsers?id="+row.id+"'>删除</a>  value 表示当前字段的值， row当前行的值 index表示索引"
-                        return "<a href='javascript:upSingle1("+row.id+")'>确认审核</a>   <a href='javascript:delSingle("+row.id+")'>详情</a>";
+                        return "<a href='javascript:upSingle1("+row.id+")'>取消审核</a>   <a href='javascript:delSingle("+row.id+")'>详情</a>";
                     }
                 }
             ]]
@@ -222,7 +222,7 @@
             return;
         }
         $.post(
-            "/Users/addUsers",
+            "/addUsers",
             name,
             function (data) {
                 if (data.returnKey>0){
@@ -254,7 +254,7 @@
 
             //发送异步请求获取对应id数据进行回显
             $.post(
-                "/Users/getUsersById",
+                "/getUsersById",
                 {"id":selObjs[0].id},
                 function (data) {
                     //还原表单数据  查询数据库，通过id获取单行记录的对象，进行回显？
@@ -277,7 +277,7 @@
         * */
         var name = $("#upDialogForm").serialize();
         $.post(
-            "/Users/upUsers",
+            "/upUsers",
             name,
             function (data) {
                 if (data.returnKey>0){
@@ -297,20 +297,20 @@
     }
 </script>--%>
 <script>
-    /*点击每行内置的审核通过链接进行修改，把ispass设为1*/
+    /*取消审核，点击每行内置的审核通过链接进行修改，把ispass设为0*/
     function upSingle1(id) {
         /* $("#UpDialog").dialog("open").dialog('setTitle',"编辑用户");*/
         //1.获取datagrid的选中行
         /*var selObjs=$("#dg").datagrid("getSelections");*/
         $.post(
-            "/Users/getUsersById1",
+            "/getUsersById2",
             {"id":id},
             function (data) {
                 if (data.returnKey>0){
                     //刷新页面
                     $('#dg').datagrid('reload');  //刷新
                 }else {
-                    $.messager.alert("友情提示", "确认审核失败！", "info");
+                    $.messager.alert("友情提示", "取消审核失败！", "info");
                 }
             },
             "json"
@@ -321,7 +321,7 @@
     /*点击每行内置的删除链接进行删除*/
     function delSingle(id) {
         $.post(
-            "/Users/delUsersById",
+            "/delUsersById",
             {"id":id},
             function (data) {
                 if (data.returnKey>0){
@@ -354,7 +354,7 @@
                     }
                     //发送异步请求获取对应id数据进行回显
                     $.post(
-                        "/Users/delUsersByBatch",
+                        "/delUsersByBatch",
                         {"ids":ids},
                         function (data) {
                             if (data.returnKey>0){

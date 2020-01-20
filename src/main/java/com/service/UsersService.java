@@ -100,7 +100,19 @@ public interface UsersService {
        */
        boolean regsUsers(Users users);
 
-       /**
+    /**
+     *
+     *
+     * @description:
+     * @param users 用于封装管理员注册信息
+     * @return:
+     * @author: Aiden
+     * @time: 2019-12-26 13:46:05
+     */
+    boolean regsAdminUsers(Users users);
+
+
+    /**
         *
         *
         * @description: 根据用户名和密码进行登录验证，若验证成功，那么必须返回Users用于展示用户信息
@@ -111,6 +123,18 @@ public interface UsersService {
         * @time: 2019-12-26 21:08:30
         */
        Users checkUsers(String name, String password);
+
+    /**
+     *
+     *
+     * @description: 根据用户名和密码进行登录验证，若验证成功，那么必须返回Users用于展示用户信息
+     * @param name
+     * @param password
+     * @return: Users
+     * @author: Aiden
+     * @time: 2019-12-26 21:08:30
+     */
+    Users checkAdminUsers(String name, String password);
 
 
     /**
@@ -123,6 +147,31 @@ public interface UsersService {
      * @time: 2019-12-23 09:55:15
      */
     Integer findUsersById1(String id);
+
+    /**
+     *
+     *
+     * @description: 根据房屋id取消否审核通过
+     * @param id
+     * @return: Users
+     * @author: Aiden
+     * @time: 2019-12-23 09:55:15
+     */
+    Integer findUsersById2(String id);
+
+
+    /**
+     *
+     *
+     * @description: 修改管理员密码
+     * @param null
+     * @return:
+     * @author: Aiden
+     * @time: 2020-1-19 22:13:21
+     */
+    boolean modifyPasswordOfAdmin(String id , String NewPass);
+
+
 }
 
 

@@ -111,6 +111,26 @@ public class UserServiceImpl implements UsersService {
         }
     }
 
+    //管理猿用户注册
+    @Override
+    public boolean regsAdminUsers(Users users) {
+        UsersExample usersExample = new UsersExample();
+        UsersExample.Criteria criteria = usersExample.createCriteria();
+        criteria.andNameEqualTo(users.getName());
+        List<Users> usersList = UsersMapper.selectByExample(usersExample);
+        if(usersList != null && usersList.size() > 0){
+            return false;
+        }else {
+            //用户有管理员与非管理员，非管理员就是房东
+            users.setIsadmin(1);
+            //MD5对密码进行加密
+            String s = MD5Utils.md5Encrypt(users.getPassword());
+            users.setPassword(s);
+            int i = UsersMapper.insertSelective(users);
+            return i>0;
+        }
+    }
+
     //根据用户名和密码进行登录验证，若验证成功，那么必须返回Users用于展示用户信息
     @Override
     public Users checkUsers(String name, String password){
@@ -119,9 +139,27 @@ public class UserServiceImpl implements UsersService {
         criteria.andNameEqualTo(name);
         String pwd = MD5Utils.md5Encrypt(password);
         criteria.andPasswordEqualTo(pwd);
+        criteria.andIsadminEqualTo(0);
         List<Users> usersList = UsersMapper.selectByExample(usersExample);
         if  (usersList !=null && usersList.size()>0)
         return usersList.get(0);
+        else
+            return null;
+    }
+
+
+    //管理员登录验证
+    @Override
+    public Users checkAdminUsers(String name, String password) {
+        UsersExample usersExample = new UsersExample();
+        UsersExample.Criteria criteria = usersExample.createCriteria();
+        criteria.andNameEqualTo(name);
+        String pwd = MD5Utils.md5Encrypt(password);
+        criteria.andPasswordEqualTo(pwd);
+        criteria.andIsadminEqualTo(1);
+        List<Users> usersList = UsersMapper.selectByExample(usersExample);
+        if  (usersList !=null && usersList.size()>0)
+            return usersList.get(0);
         else
             return null;
     }
@@ -132,6 +170,19 @@ public class UserServiceImpl implements UsersService {
         return UsersMapper.makePass(id);
     }
 
+    //取消房屋审核通过
+    @Override
+    public Integer findUsersById2(String id) {
+        return UsersMapper.makeNoPass(id);
+    }
+
+    //修改管理员密码
+    @Override
+    public boolean modifyPasswordOfAdmin(String id , String NewPass) {
+        String pwd = MD5Utils.md5Encrypt(NewPass);
+        Integer integer = UsersMapper.updateAdminPassword(id, pwd);
+        return integer>0;
+    }
 }
 
 

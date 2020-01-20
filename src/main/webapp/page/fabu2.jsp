@@ -5,12 +5,12 @@
 <!-- saved from url=(0044)http://localhost:8080/HouseRent/page/add.jsp -->
 <HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>汉房租房 -发布房屋信息</TITLE>
 <META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK 
-rel=stylesheet type=text/css href="../css/style.css">
+rel=stylesheet type=text/css href="${pageContext.request.contextPath}/css/style.css">
   <script src="${pageContext.request.contextPath}/js/jquery-1.8.3.js"></script>
   <META name=GENERATOR content="MSHTML 8.00.7601.17514"></HEAD>
 <BODY>
 <DIV id=header class=wrap>
-<DIV id=logo><IMG src="../images/logo.gif"></DIV></DIV>
+<DIV id=logo><IMG src="${pageContext.request.contextPath}/images/logo.gif"></DIV></DIV>
 <DIV id=regLogin class=wrap>
 <DIV class=dialog>
 <DL class=clearfix>

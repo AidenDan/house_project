@@ -1,14 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--%>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>汉房后台管理系统</title>
-    <link href="../Css/default.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="admin/easyUI/themes/default/easyui.css" />
-    <link rel="stylesheet" type="text/css" href="admin/easyUI/themes/icon.css" />
-    <script type="text/javascript" src="admin/js/jquery-1.8.3.js"></script>
-    <script type="text/javascript" src="admin/js/jquery.easyui.min.js"></script>
-	<script type="text/javascript" src='admin/js/outlook2.js'> </script>
+    <link href="admin/Css/default.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="easyUI/themes/default/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="easyUI/themes/icon.css" />
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src='js/outlook2.js'> </script>
     <script type="text/javascript">
 	 var _menus = {"menus":[
 						{"menuid":"1","icon":"icon-sys","menuname":"常规设置",
@@ -96,7 +99,7 @@
 
             $('#btnEp').click(function() {
                 serverLogin();
-            })
+            });
 
 			$('#btnCancel').click(function(){closePwd();})
 
@@ -109,11 +112,28 @@
                 });
             })
         });
-		
-		
-
     </script>
 
+    <script>
+        //修改密码
+
+            function editPass0() {
+                $("#w").dialog("open");
+            }
+
+            function editPass() {
+                var NewPass = $("#txtNewPass").val();
+                var RePass = $("#txtRePass").val();
+               // alert(NewPass);
+                window.location.href="editAdminPassword/${users.id}/"+NewPass+"/"+RePass;
+            }
+    </script>
+
+    <script>
+        <c:if test="${requestScope.msg03 eq 'fail'}">
+        alert("两次输入的密码不同");
+        </c:if>
+    </script>
 </head>
 <body class="easyui-layout" style="overflow-y: hidden"  scroll="no">
 <noscript>
@@ -123,7 +143,7 @@
     <div region="north" split="true" border="false" style="overflow: hidden; height: 30px;
         background: url(images/layout-browser-hd-bg.gif) #7f99be repeat-x center 50%;
         line-height: 20px;color: #fff; font-family: Verdana, 微软雅黑,黑体">
-        <span style="float:right; padding-right:20px;" class="head">欢迎 ${} <a href="#" id="editpass" style="color:#fff;">修改密码</a> <a href="#" id="loginOut" style="color:#fff;">安全退出</a></span>
+        <span style="float:right; padding-right:20px;" class="head">欢迎 ${users.name} <a href="javascript:editPass0()" id="editpass" style="color:#fff;">修改密码</a> <a href="${pageContext.request.contextPath}/out" id="loginOut" style="color:#fff;">安全退出</a></span>
         <span style="padding-left:10px; font-size: 16px; "><img src="images/blocks.gif" width="20" height="20" align="absmiddle" />汉房后台管理系统</span>
     </div>
     <div region="south" split="true" style="height: 30px; background: #D2E0F2; ">
@@ -154,20 +174,21 @@
                 <table cellpadding=3>
                     <tr>
                         <td>新密码：</td>
-                        <td><input id="txtNewPass" type="password" class="txt01" /></td>
+                        <td><input id="txtNewPass" type="password" class="txt01" value="" /></td>
                     </tr>
                     <tr>
                         <td>确认密码：</td>
-                        <td><input id="txtRePass" type="password" class="txt01" /></td>
+                        <td><input id="txtRePass" type="password" class="txt01" value="" /></td>
                     </tr>
                 </table>
             </div>
             <div region="south" border="false" style="text-align: right; height: 30px; line-height: 30px;">
-                <a id="btnEp" class="easyui-linkbutton" icon="icon-ok" href="javascript:void(0)" >
+                <a id="btnEp" class="easyui-linkbutton" icon="icon-ok" href="javascript:editPass()" >
                     确定</a> <a id="btnCancel" class="easyui-linkbutton" icon="icon-cancel" href="javascript:void(0)">取消</a>
             </div>
         </div>
     </div>
+
 	<div id="mm" class="easyui-menu" style="width:150px;">
 		<div id="mm-tabupdate">刷新</div>
 		<div class="menu-sep"></div>
@@ -181,4 +202,8 @@
 		<div id="mm-exit">退出</div>
 	</div>
 </body>
+<script>
+
+</script>
+
 </html>

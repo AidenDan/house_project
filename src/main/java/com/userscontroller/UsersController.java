@@ -26,6 +26,7 @@ public class UsersController {
     @Autowired
     UsersService usersService;
 
+    //注册时的时候要先判断次用户名是否已经存在
     @RequestMapping("/isexist")
     @ResponseBody
     public boolean isUsersExist(String name){
@@ -63,4 +64,6 @@ public class UsersController {
         session.invalidate();
         return "/page/login.jsp";
     }
+
+
 }

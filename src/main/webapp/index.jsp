@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<input type="button" value="我是后台用户" style="font-size: large" onclick="location.href='${pageContext.request.contextPath}/admin/admin.html'">
+<input type="button" value="我是后台用户" style="font-size: large" onclick="location.href='${pageContext.request.contextPath}/admin/adminlogin.jsp'">
 <input type="button" value="我是房东用户" style="font-size: large" onclick="location.href='${pageContext.request.contextPath}/page/login.jsp'">
 </body>
 </html>

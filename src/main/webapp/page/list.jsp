@@ -55,8 +55,8 @@
             </c:if>
           </DT>
           <DD>房屋编号：${h.id}，${h.districtName}，${h.streetName}，${h.floorage}平米<BR>价格：￥${h.price}，联系方式：${h.contact} </DD></DL></TD>
-      <TD class=house-type><LABEL class=ui-green><INPUT onclick='location.href="${pageContext.request.contextPath}/h/upHouse/${h.id}"' value="收    藏" type=button name=search></LABEL></TD>
-      <TD class=house-price><LABEL class=ui-green><INPUT value="详    情" type=button name=search onclick="location.href='${pageContext.request.contextPath}/h/downHouse?houseId=${h.id}'"></LABEL></TD></TR>
+      <TD class=house-type><LABEL class=ui-green><INPUT onclick='location.href=""' value="收    藏" type=button name=search></LABEL></TD>
+      <TD class=house-price><LABEL class=ui-green><INPUT value="详    情" type=button name=search onclick="location.href='${pageContext.request.contextPath}/h/detailsHouse?houseId=${h.id}'"></LABEL></TD></TR>
   </c:forEach>
   </TBODY></TABLE>
 <DIV class=pager>

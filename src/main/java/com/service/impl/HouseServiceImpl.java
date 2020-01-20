@@ -57,6 +57,12 @@ public class HouseServiceImpl implements HouseService {
         return houseMapper.downHouseByHouseId(houseId);
     }
 
+    //显示房屋信息。插单条
+    @Override
+    public House detailsHouseService(String houseId) {
+        return houseMapper.selectSingleHouse(houseId);
+    }
+
     @Override
     public PageInfo<House> showHouse2(Integer pageNum, Integer pageSize, UsersCondition condition) {
         //开启分页

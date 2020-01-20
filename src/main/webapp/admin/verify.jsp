@@ -226,7 +226,7 @@
             return;
         }
         $.post(
-            "/Users/addUsers",
+            "/addUsers",
             name,
             function (data) {
                 if (data.returnKey>0){
@@ -258,7 +258,7 @@
 
             //发送异步请求获取对应id数据进行回显
             $.post(
-                "/Users/getUsersById",
+                "/getUsersById",
                 {"id":selObjs[0].id},
                 function (data) {
                     //还原表单数据  查询数据库，通过id获取单行记录的对象，进行回显？
@@ -281,7 +281,7 @@
         * */
         var name = $("#upDialogForm").serialize();
         $.post(
-            "/Users/upUsers",
+            "/upUsers",
             name,
             function (data) {
                 if (data.returnKey>0){
@@ -307,7 +307,7 @@
         //1.获取datagrid的选中行
         /*var selObjs=$("#dg").datagrid("getSelections");*/
         $.post(
-            "/Users/getUsersById1",
+            "/getUsersById1",
             {"id":id},
             function (data) {
                 if (data.returnKey>0){
@@ -325,7 +325,7 @@
     /*点击每行内置的删除链接进行删除*/
     function delSingle(id) {
         $.post(
-            "/Users/delUsersById",
+            "/delUsersById",
             {"id":id},
             function (data) {
                 if (data.returnKey>0){
@@ -358,7 +358,7 @@
                     }
                     //发送异步请求获取对应id数据进行回显
                     $.post(
-                        "/Users/delUsersByBatch",
+                        "/delUsersByBatch",
                         {"ids":ids},
                         function (data) {
                             if (data.returnKey>0){
@@ -405,7 +405,7 @@
     }
 </script>
 <script>
-    /*批量删除*/
+    /*批量审核*/
     function goVerifyByBatch() {
         //1.获取datagrid的选中行
         var selObjs=$("#dg").datagrid("getSelections");
@@ -427,7 +427,7 @@
                         {"arr0":ids},
                         function (data) {
                             if (data.returnKey>0){
-                                //添加成功就刷新并关闭窗口
+                                //审核成功就刷新并关闭窗口
                                 $('#dg').datagrid('reload');  //刷新
                             }else{
                                 $.messager.alert("友情提示", "审核失败！", "info");

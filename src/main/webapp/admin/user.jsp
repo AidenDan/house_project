@@ -103,7 +103,7 @@
     $(function(){
         //使用datagrid绑定数据展示
         $('#dg').datagrid({
-            url:'/Users/getAllUsersByPage',
+            url:'/getAllUsersByPage',
             fitColumns: true,
             pagination: true,
             pageList: [5, 10, 15, 20],
@@ -148,7 +148,7 @@
             return;
         }
         $.post(
-            "/Users/addUsers",
+            "/addUsers",
             name,
             function (data) {
                 if (data.returnKey>0){
@@ -180,7 +180,7 @@
 
             //发送异步请求获取对应id数据进行回显
             $.post(
-                "/Users/getUsersById",
+                "/getUsersById",
                 {"id":selObjs[0].id},
                 function (data) {
                     //还原表单数据  查询数据库，通过id获取单行记录的对象，进行回显？
@@ -203,7 +203,7 @@
         * */
         var name = $("#upDialogForm").serialize();
         $.post(
-            "/Users/upUsers",
+            "/upUsers",
             name,
             function (data) {
                 if (data.returnKey>0){
@@ -227,7 +227,7 @@
     function upSingle(id) {
         $("#UpDialog").dialog("open").dialog('setTitle',"编辑用户");
         $.post(
-            "/Users/getUsersById",
+            "/getUsersById",
             {"id":id},
             function (data) {
                 //还原表单数据  查询数据库，通过id获取单行记录的对象，进行回显？
@@ -243,7 +243,7 @@
     /*点击每行内置的删除链接进行删除*/
     function delSingle(id) {
         $.post(
-            "/Users/delUsersById",
+            "/delUsersById",
             {"id":id},
             function (data) {
                 if (data.returnKey>0){
@@ -276,7 +276,7 @@
                     }
                     //发送异步请求获取对应id数据进行回显
                     $.post(
-                        "/Users/delUsersByBatch",
+                        "/delUsersByBatch",
                         {"ids":ids},
                         function (data) {
                             if (data.returnKey>0){

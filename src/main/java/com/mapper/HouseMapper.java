@@ -194,6 +194,17 @@ public interface HouseMapper {
             "                         </if> " +
             " and ispass =1 order by PUBDATE desc</script>")
     List<House> selectAllHouse5(UsersCondition condition);
+
+    //查询单条房屋信息
+    @Select("select house.ID, house.USER_ID userId, TITLE, DESCRIPTION, PRICE, PUBDATE, FLOORAGE, ispass, isdel, TYPE_ID typeId, STREET_ID streetId, street.DISTRICT_ID districtId," +
+            " CONTACT, PATH , street.NAME streetName, district.NAME districtName, type.NAME typeName, telephone " +
+            " from house  " +
+            " left join street on house.STREET_ID=street.ID" +
+            " left join district on street.DISTRICT_ID=district.ID" +
+            " left join type on house.TYPE_ID=type.ID" +
+            " left join users on users.id=house.USER_ID" +
+            " where 1 =1 and house.ID=#{houseId}" )
+    House selectSingleHouse(String houseId);
 }
 
 

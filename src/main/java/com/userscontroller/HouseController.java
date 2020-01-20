@@ -32,7 +32,7 @@ public class HouseController {
     HouseService houseService;
 
     @RequestMapping("/getHouse")          //获取前台图片资源@RequestParam("pfile")不能省略
-    public String addHouse(House house, @RequestParam(value = "pfile", required = false)CommonsMultipartFile pfile, HttpSession session, Model model){
+    public String addHouse(House house, @RequestParam(value = "pfile", required = false)MultipartFile pfile, HttpSession session, Model model){
         //设置房屋id
         String id = System.currentTimeMillis()+"";
         house.setId(id);
@@ -107,7 +107,7 @@ public class HouseController {
 
     //最终接受修改房屋的请求
     @RequestMapping("/finalUpHouse")          //获取前台图片资源@RequestParam("pfile")不能省略
-    public String finalUpHouse(String id, House house, @RequestParam(value = "pfile", required = false)CommonsMultipartFile pfile, HttpSession session, Model model){
+    public String finalUpHouse(String id, House house, @RequestParam(value = "pfile", required = false)MultipartFile pfile, HttpSession session, Model model){
         //根据图片路径删除旧的图片
         String path3 = "G:/upLoadFile/" + house.getPath();
         File file1 = new File(path3);
@@ -162,6 +162,17 @@ public class HouseController {
         Integer i = houseService.downHouseService(houseId);
         if(i>0){
             return "/h/showHouse";
+        }else
+            return "/page/err.jsp";
+    }
+
+    //显示房屋详细信息，查询单条
+    @RequestMapping("/detailsHouse")
+    public String detailsHouse(String houseId, Model model){
+        House house = houseService.detailsHouseService(houseId);
+        if(house !=null){
+            model.addAttribute("house", house);
+            return "/page/details.jsp";
         }else
             return "/page/err.jsp";
     }
